@@ -4,6 +4,7 @@ let li = document.querySelector('li')
 let button = document.querySelector('button')
 h1.style.color='white'
 h1.style.textTransform="uppercase"
+//Fethcing using fetch api
 
 fetch(
   "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single"
