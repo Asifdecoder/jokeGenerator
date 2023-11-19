@@ -17,6 +17,7 @@ fetch(
     console.log(data);
 
     console.log(data.joke)
+    //function to manipulate dom
 
     function domMan(){
 
